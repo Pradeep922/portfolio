@@ -1,0 +1,52 @@
+.Skills {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.Skill-bg {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.Skills::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.Skillimg {
+    height: 100%;
+    width: 100%;
+}
+
+.Skillimg .content {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+    padding-right: 90px;
+    
+}
+
+.Skillimg .content h1 {
+    font-size:40px;
+    font-weight:500;
+    text-transform:uppercase;
+    color: white;
+
+}
+
+.Skillimg .content ul {
+    font-size:25px;
+    font-weight:200;
+    color: white;
+}

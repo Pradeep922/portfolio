@@ -1,0 +1,41 @@
+.system {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.intro-bg {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.system::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.BG {
+    height: 100%;
+    width: 100%;
+}
+
+.BG .content {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    text-align: center;
+}
+
+.BG .content h1 {
+    font-size:30px;
+    font-weight:300;
+    text-transform:uppercase;
+}
