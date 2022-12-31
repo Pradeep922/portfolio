@@ -10,16 +10,18 @@ const ProjectList = () => {
       </div>
       <div className="Content">
         <h1>Here are some of my Works</h1>
-        <h2>CC Tool </h2>
+        <h2>CRM Application</h2>
         <p>
-          An Internal Tool which is used for creating and editing Boards that
-          are used for the Website as a part of Course Creation. An Tool where
-          the User has the ability to create, edit and delete the Boards based
-          on the Requirements of the Client and allows them to add Assets for
-          the Boards too based on each board type
+          An CRM Application where only an Admin is able to create Tickets whereas an Manager has only the View Option.
         </p>
-        <h2>Web Page </h2>
-        <p>Designing Webpage for each page of the Website for different Clients and makes the changes according to the requirements of the Client.</p>
+        <a href="https://github.com/Pradeep922/crm-react.git">Git Front-End</a><br />
+        <a href="https://github.com/Pradeep922/CRM-Node.git">Git Back-End</a>
+        <h2>User-Form</h2>
+        <p>User Form where an User is able to add his Name and Age and store them.</p>
+        <a href="https://github.com/Pradeep922/Form.git">Git Front-End</a>
+        <h2>YouTube Clone</h2>
+        <p>YouTube Clone with the API of YouTube.</p>
+        <a href="https://github.com/Pradeep922/YT-Clone.git">Git Front-End</a>
       </div>
     </div>
   );

@@ -9,7 +9,8 @@ const Background = () => {
         <img className='intro-bg' src={IntroImage} alt='Intro Image' />        
         </div>
         <div className='content'>
-            <h1>Welcome to my Resume</h1>
+            <h1><b>Welcome to my Profile</b></h1>
+            <h1><b>I specialize in developing and deploying responsive websites and web applications</b></h1>
         </div>
     </div>
   )

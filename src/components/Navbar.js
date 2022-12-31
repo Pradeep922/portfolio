@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 
 
+
 const Navbar = () => {
 
   const [click, setClick] = useState(false);
@@ -33,6 +34,8 @@ return (
           {click ? (<FaBars size={30} style={{color:'fff'}} />): null}
           
           <FaBars size={30} style={{color:'fff'}} />
+
+          
         
           </div>  
     </div>

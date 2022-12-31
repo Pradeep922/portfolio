@@ -20,6 +20,9 @@ const  Form= () => {
         <label>Email ID:</label>
         <input type="text"></input>
     </form>
+
+    
+
     </div>
     </div>
     
